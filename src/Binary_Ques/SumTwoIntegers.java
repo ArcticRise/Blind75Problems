@@ -4,6 +4,8 @@ public class SumTwoIntegers {
     public static void main (String [] args){
         System.out.println(getSum(9,11));
     }
+
+    //Add two integers without using + or - O(1) time complexity
     public static int getSum(int a, int b) {
         //B is the carry
         // A is the result
